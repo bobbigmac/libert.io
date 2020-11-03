@@ -1,0 +1,44 @@
+
+html, body {
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+.wrapper {
+	user-select: none;
+
+	width: 100vw;
+	height: 100vh;
+
+	background-color: #0a0acd;
+	font-family: 'Verdana', 'Arial', serif;
+	color: white;
+}
+
+.wrapper h1 {
+	text-align: center;
+	/*text-transform: uppercase;*/
+
+	font-size: 20vw;
+	line-height: 20vw;
+	padding-top: 20vh;
+	margin-bottom: 0;
+	letter-spacing: -0.028em;
+	text-rendering: optimizeLegibility;
+}
+
+.wrapper h2 {
+	text-align: right;
+	padding: 0 15%;
+
+	font-size: 2em;
+	line-height: 0.651em;
+	font-style: italic;
+	letter-spacing: 0.15em;
+	text-rendering: optimizeLegibility;
+}
+
+.hidden {
+	display: none;
+}
